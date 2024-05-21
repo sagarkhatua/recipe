@@ -1,0 +1,39 @@
+@media (max-width: 581px) {
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  .recipe-closeBtn {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+  }
+}
+
+@media (max-width: 369px) {
+  header nav form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav form button {
+    width: 4rem;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 371px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .recipe-details {
+    width: 60%;
+    height: 40%;
+  }
+}
